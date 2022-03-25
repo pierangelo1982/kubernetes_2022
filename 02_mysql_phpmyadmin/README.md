@@ -57,3 +57,8 @@ Complete deployment using kustomization.yml:
 Complete delete using kustomization.yml:
 
 `kubectl delete -k ./`
+
+
+### On minikube find address here:
+
+show ip: `minikube service list`
