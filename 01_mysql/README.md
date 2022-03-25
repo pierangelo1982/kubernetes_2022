@@ -1,31 +1,37 @@
+File:
+
 - mysql-secret
 - mysql-storage
 - mysql-deployment
 
 ### deploy
-kubectl apply -f mysql-secret.yaml
 
-kubectl apply -f mysql-storage.yaml
+`kubectl apply -f mysql-secret.yaml`
 
-kubectl apply -f mysql-deployment.yaml
+`kubectl apply -f mysql-storage.yaml`
 
-oppure:
+`kubectl apply -f mysql-deployment.yaml`
 
-kubectl apply -k ./
+Complete deployment using kustomization.yml:
 
+`kubectl apply -k ./`
 
 ### enter in mysql
-kubectl exec --stdin --tty mysql-xxxxx -- /bin/bash
 
+`kubectl exec --stdin --tty mysql-xxxxx -- /bin/bash`
 
+`mysql -u root -p`
 
-### remove
-kubectl delete deployment,svc mysql
+### delete
 
-kubectl delete pvc mysql-pv-claim
+`kubectl delete deployment,svc mysql`
 
-kubectl delete pv mysql-pv-volume
+`kubectl delete pvc mysql-pv-claim`
 
-kubectl delete secret mysql-secret
+`kubectl delete pv mysql-pv-volume`
 
-kubectl delete -k ./
+`kubectl delete secret mysql-secret`
+
+Complete delete using kustomization.yml:
+
+`kubectl delete -k ./`
