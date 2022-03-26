@@ -1,4 +1,4 @@
-# postgres - kubernetes
+# postgres - pgadmin kubernetes
 
 `kubectl apply -k ./`
 
