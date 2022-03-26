@@ -1,0 +1,4 @@
+resources:
+  - postgres-secret.yaml
+  - postgres-storage.yaml
+  - postgres-deployment.yaml
