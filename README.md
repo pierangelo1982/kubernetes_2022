@@ -8,7 +8,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - wordpress + mysql + phpmyadmin on digitalocean kubernetes](03_wordpress_mysql_phpmyadmin/01_digitalocean_kubernetes/)
 
-[04 - postgresql + pgadmin](04_postgresql_pgadmin/README.md)
+[04 - postgresql](04_postgresql/README.md)
 
 
 
