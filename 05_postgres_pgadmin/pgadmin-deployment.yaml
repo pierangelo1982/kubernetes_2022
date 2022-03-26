@@ -19,7 +19,12 @@ spec:
       - name: pgadmin
         image: dpage/pgadmin4
         ports:
-        - containerPort: 80
+        - name: http
+          containerPort: 80
+          protocol: TCP
+        - name: https
+          containerPort: 443
+          protocol: TCP
         env:
         - name: PGADMIN_DEFAULT_EMAIL
           value: user@domain.com
@@ -29,16 +34,18 @@ spec:
               name: pgadmin-secret
               key: password
         volumeMounts:
-        - name: pgadmin-config
-          mountPath: /pgadmin4/servers.json
-          subPath: servers.json
-          readOnly: true
+        # - name: pgadmin-config
+        #   mountPath: /pgadmin4/servers.json
+        #   subPath: servers.json
+        #   readOnly: true
         - name: pgadmin-data
-          mountPath: /var/lib/pgadmin
+          #mountPath: /var/lib/pgadmin
+          mountPath: /tmp/pgadmin
+          readOnly: false
       volumes:
-      - name: pgadmin-config
-        configMap:
-          name: pgadmin-config
+      # - name: pgadmin-config
+      #   configMap:
+      #     name: pgadmin-config
       - name: pgadmin-data
         persistentVolumeClaim:
           claimName: pgadmin-pv-claim
