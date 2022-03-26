@@ -10,7 +10,7 @@
 
 [04 - postgresql](04_postgresql/README.md)
 
-[05 - postgresql + pgadmin](05_postgresql_pgadmin/README.md)
+[05 - postgresql + pgadmin](05_postgres_pgadmin/README.md)
 
 
 
