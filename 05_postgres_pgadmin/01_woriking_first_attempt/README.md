@@ -4,29 +4,6 @@
 
 `kubectl delete -k ./`
 
-### NB: HOST in pgadmin-configmap.yaml has the name of the service postgres, in this case postgres
-
-```
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: pgadmin-config
-data:
-  servers.json: |
-    {
-        "Servers": {
-          "1": {
-            "Name": "PostgreSQL DB",
-            "Group": "Servers",
-            "Port": 5432,
-            "Username": "postgres",
-            "Host": "postgres.domain.com",
-            "SSLMode": "prefer",
-            "MaintenanceDB": "postgres"
-          }
-        }
-    }
-```
 ## postgres
 
 deploy:

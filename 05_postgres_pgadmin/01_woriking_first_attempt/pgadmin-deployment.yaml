@@ -27,28 +27,25 @@ spec:
           protocol: TCP
         env:
         - name: PGADMIN_DEFAULT_EMAIL
-          valueFrom:
-            secretKeyRef:
-              name: pgadmin-secret
-              key: email
+          value: user@domain.com
         - name: PGADMIN_DEFAULT_PASSWORD
           valueFrom:
             secretKeyRef:
               name: pgadmin-secret
               key: password
         volumeMounts:
-        - name: pgadmin-config
-          mountPath: /pgadmin4/servers.json
-          subPath: servers.json
-          readOnly: true
+        # - name: pgadmin-config
+        #   mountPath: /pgadmin4/servers.json
+        #   subPath: servers.json
+        #   readOnly: true
         - name: pgadmin-data
           #mountPath: /var/lib/pgadmin
-          mountPath: /tmp/lib/pgadmin
+          mountPath: /tmp/pgadmin
           readOnly: false
       volumes:
-      - name: pgadmin-config
-        configMap:
-          name: pgadmin-config
+      # - name: pgadmin-config
+      #   configMap:
+      #     name: pgadmin-config
       - name: pgadmin-data
         persistentVolumeClaim:
           claimName: pgadmin-pv-claim

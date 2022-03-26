@@ -11,7 +11,7 @@ data:
             "Group": "Servers",
             "Port": 5432,
             "Username": "postgres",
-            "Host": "postgres",
+            "Host": "postgres.domain.com",
             "SSLMode": "prefer",
             "MaintenanceDB": "postgres"
           }
