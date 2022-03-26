@@ -12,6 +12,7 @@
 
 [05 - postgresql + pgadmin](05_postgres_pgadmin/README.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - first attempt, not the best but it's working](05_postgres_pgadmin/01_woriking_first_attempt)
 
 
 
