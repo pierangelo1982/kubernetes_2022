@@ -29,3 +29,17 @@ enter to operate in the pod:
 
 `kubectl exec --stdin --tty postgres-xxxxx -- /bin/bash`
 
+
+## pgadmin4
+
+deploy:
+
+`kubectl apply -f pgadmin-secret.yaml`
+
+`kubectl apply -f pgadmin-storage.yaml`
+
+`kubectl apply -f pgadmin-configmap.yaml`
+
+`kubectl apply -f pgadmin-deployment.yaml`
+
+

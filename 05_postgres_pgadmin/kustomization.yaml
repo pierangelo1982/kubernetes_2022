@@ -2,3 +2,7 @@ resources:
   - postgres-secret.yaml
   - postgres-storage.yaml
   - postgres-deployment.yaml
+  - pgadmin-secret.yaml
+  - pgadmin-configmap.yaml
+  - pgadmin-storage.yaml
+  - pgadmin-deployment.yaml
