@@ -6,6 +6,8 @@
 
 [03 - wordpress + mysql + phpmyadmin](03_wordpress_mysql_phpmyadmin/README.md)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - wordpress + mysql + phpmyadmin on digiyalocean kubernetes](03_wordpress_mysql_phpmyadmin/01_digitalocean_kubernetes/)
+
 
 
 
