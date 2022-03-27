@@ -14,6 +14,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - old first attempt of postgres pgadmin, not great but it's working](05_postgres_pgadmin/01_woriking_first_attempt)
 
+[06 - ingress domain dns (not working yet)](06_ingress_domain_dns/)
+
 
 
 
