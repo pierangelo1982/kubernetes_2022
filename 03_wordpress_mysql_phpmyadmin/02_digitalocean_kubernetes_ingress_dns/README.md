@@ -1,3 +1,9 @@
+# kubernetes digitalocean - ingress and domain
+
+N.B: add nginx-ingress addons in kubernetes ditalocean
+
+general-ingress.yaml manage the domain ingress: wordpress.p82.it phpmyadmin.p82.it
+
 File:
 
 - mysql-secret
@@ -49,6 +55,7 @@ Complete deployment using kustomization.yml:
 `kubectl delete ingress ingress.yml`
 
 # wordpress
+
 `kubectl apply -f wordpress-storage.yaml`
 
 `kubectl apply -f wordpress-deployment.yaml`
@@ -68,8 +75,3 @@ Complete deployment using kustomization.yml:
 Complete delete using kustomization.yml:
 
 `kubectl delete -k ./`
-
-
-### On minikube find address here:
-
-show ip: `minikube service list`
