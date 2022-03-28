@@ -8,7 +8,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - wordpress + mysql + phpmyadmin on digitalocean kubernetes](03_wordpress_mysql_phpmyadmin/01_digitalocean_kubernetes/)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - wordpress + mysql + phpmyadmin on ingress & dns](03_wordpress_mysql_phpmyadmin/02_digitalocean_kubernetes_ingress_dns/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - wordpress + mysql + phpmyadmin ingress & dns on digitalocean](03_wordpress_mysql_phpmyadmin/02_digitalocean_kubernetes_ingress_dns/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[03 - wordpress + mysql + phpmyadmin on ingress & dns on Microk8s](03_wordpress_mysql_phpmyadmin/03_microk8s_kubernetes_ingress_dns/)
 
 [04 - postgresql](04_postgresql/)
 
