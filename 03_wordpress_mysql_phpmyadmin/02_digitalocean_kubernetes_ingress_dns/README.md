@@ -1,10 +1,3 @@
-on minikube enable dns:
-
-`minikube addons enable ingress`
-
-`minikube addons enable ingress-dns`
-
-
 File:
 
 - mysql-secret
