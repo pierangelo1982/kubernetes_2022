@@ -1,9 +1,8 @@
+
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: nginx-ingress
-  annotations:
-    kubernetes.io/ingress.class: nginx
+  name: http-ingress
 spec:
   rules:
   - host: phpmyadmin.p82.it
