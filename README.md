@@ -22,6 +22,6 @@
 
 [07 - test with hostname](07_test_hostname/)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - test with hostname with ingress onm digitalocean](07_test_hostname/01_test_hostname_with_ingress_on_digitalocean/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - test with hostname with ingress on digitalocean](07_test_hostname/01_test_hostname_with_ingress_on_digitalocean/)
 
 
