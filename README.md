@@ -24,4 +24,5 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - test with hostname with ingress on digitalocean](07_test_hostname/01_test_hostname_with_ingress_on_digitalocean/)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - test with hostname with ingress on linode](07_test_hostname/02_test_hostname_with_ingress_on_linode/)
 

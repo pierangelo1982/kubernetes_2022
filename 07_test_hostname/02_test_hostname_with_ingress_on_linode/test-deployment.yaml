@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test
+  labels:
+    app: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test
+      tier: frontend
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: test
+        tier: frontend
+    spec:
+      containers:
+      - image: oguzpastirmaci/hostname
+        name: test
+        ports:
+        - containerPort: 8000
+          name: test
