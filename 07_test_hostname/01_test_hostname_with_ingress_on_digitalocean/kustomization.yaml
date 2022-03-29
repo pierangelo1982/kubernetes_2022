@@ -1,0 +1,3 @@
+resources:
+  - test-deployment.yaml
+  - test-service.yaml
