@@ -1,22 +1,33 @@
-### test busybox for testing loadbalancer
-
-here I add a ingress for enter thought digitalocean nginx.ingress loadbalancer
+# example of ingress with host domain on linode
 
 ### linode connection
 
+download the confoguration yaml file from linode:
+and set the env varialble:
+
 `export KUBECONFIG=~/Scaricati/demo-kubernetes-kubeconfig.yaml`
 
-check nodes:
+### ingress nginx
 
-` kubectl get nodes`
+install with helm:
 
-`kubectl get pods -A`
+`helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx`
 
-### helm ngninx ingress installation:
+`helm repo update`
 
-helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+`helm install ingress-nginx ingress-nginx/ingress-nginx`
 
-helm repo update
+get ip:
 
-helm install ingress-nginx ingress-nginx/ingress-nginx
+`kubectl --namespace default get services -o wide -w ingress-nginx-controller`
+
+and point your dns on the ip:
+
+### launch configuration:
+
+`kubectl apply -k ./`
+
+### delete configuration
+
+`kubectl delete -k ./`
 
