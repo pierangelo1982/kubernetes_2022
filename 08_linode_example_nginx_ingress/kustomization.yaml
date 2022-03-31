@@ -1,0 +1,4 @@
+resources:
+  - hello-one.yaml
+  - hello-two.yaml
+  - my-ingress.yaml

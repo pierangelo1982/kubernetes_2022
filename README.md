@@ -26,3 +26,5 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - test with hostname with ingress on linode](07_test_hostname/02_test_hostname_with_ingress_on_linode/)
 
+[08 - linode basic example nginx ingress with domain](08_linode_example_nginx_ingress/)
+
