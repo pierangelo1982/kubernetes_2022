@@ -12,6 +12,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[03 - wordpress + mysql + phpmyadmin on ingress & dns on Microk8s (not working yet)](03_wordpress_mysql_phpmyadmin/03_microk8s_kubernetes_ingress_dns/)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[04 - wordpress + mysql + phpmyadmin ingress & dns on linode](03_wordpress_mysql_phpmyadmin/04_linode_kubernetes_ingress_dns/)
+
 [04 - postgresql](04_postgresql/)
 
 [05 - postgresql + pgadmin](05_postgres_pgadmin/)
