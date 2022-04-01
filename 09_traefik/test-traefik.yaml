@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: helloworld
+  namespace: traefik
   annotations:
     kubernetes.io/ingress.class: "traefik"
     traefik.frontend.passHostHeader: "true"
