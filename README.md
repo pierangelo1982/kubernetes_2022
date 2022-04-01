@@ -10,7 +10,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - wordpress + mysql + phpmyadmin ingress & dns on digitalocean](03_wordpress_mysql_phpmyadmin/02_digitalocean_kubernetes_ingress_dns/)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[03 - wordpress + mysql + phpmyadmin on ingress & dns on Microk8s (not working yet)](03_wordpress_mysql_phpmyadmin/03_microk8s_kubernetes_ingress_dns/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[03 - wordpress + mysql + phpmyadmin on ingress & dns on Microk8s](03_wordpress_mysql_phpmyadmin/03_microk8s_kubernetes_ingress_dns/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[04 - wordpress + mysql + phpmyadmin ingress & dns on linode](03_wordpress_mysql_phpmyadmin/04_linode_kubernetes_ingress_dns/)
 
