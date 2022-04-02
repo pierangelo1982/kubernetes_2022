@@ -14,6 +14,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[04 - wordpress + mysql + phpmyadmin ingress & dns on linode](03_wordpress_mysql_phpmyadmin/04_linode_kubernetes_ingress_dns/)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[05 - wordpress + mysql + phpmyadmin + nginx ingress & dns + certificates let's encrypt on microk8s](03_wordpress_mysql_phpmyadmin/05_microk8s_kubernetes_nginx_ingress_dns_letsencrypt_certificates/)
+
 [04 - postgresql](04_postgresql/)
 
 [05 - postgresql + pgadmin](05_postgres_pgadmin/)
