@@ -5,4 +5,5 @@ resources:
   - phpmyadmin-deployment.yaml
   - wordpress-storage.yaml
   - wordpress-deployment.yaml
+  - general-issuer.yaml
   - general-ingress.yaml
