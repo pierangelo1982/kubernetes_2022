@@ -39,3 +39,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - traefik with certificates](09_traefik/02_traefik_with_certificates/)
 
 [10 - helm test](10_helm_test)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - connect phpmyadmin to helm created mysql](10_helm_test/01_connect_phpmyadmin_to_helm_mysql/)
+
+
