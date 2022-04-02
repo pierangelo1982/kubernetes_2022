@@ -21,3 +21,7 @@ spec:
                 name: test-service
                 port:
                   number: 80
+  tls: # < placing a host in the TLS config will indicate a certificate should be created
+    - hosts:
+        - demo.p82.it
+      secretName: myingress-cert # < cert-manager will store the created certificate in this secret.
