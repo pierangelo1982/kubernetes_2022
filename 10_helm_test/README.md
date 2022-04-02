@@ -21,3 +21,7 @@ example:
 [01 - mysql](./mysql.md)
 
 [02 - postgresql](./postgresql.md)
+
+## test project
+
+[01 - connect phpmyadmin to helm created mysql](./01_connect_phpmyadmin_to_helm_mysql/)
