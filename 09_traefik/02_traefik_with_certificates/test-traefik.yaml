@@ -4,8 +4,8 @@ metadata:
   name: helloworld
   annotations:
     kubernetes.io/ingress.class: "traefik"
-    traefik.frontend.passHostHeader: "true"
-    traefik.backend.loadbalancer.sticky: "true"
+    # traefik.frontend.passHostHeader: "true"
+    # traefik.backend.loadbalancer.sticky: "true"
     cert-manager.io/acme-challenge-type: http01
     cert-manager.io/cluster-issuer: letsencrypt-prod
 

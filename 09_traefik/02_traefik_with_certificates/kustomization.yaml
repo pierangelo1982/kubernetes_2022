@@ -1,5 +1,5 @@
 resources:
   - test-deployment.yaml
   - test-service.yaml
-  - test-issuer.yaml
   - test-traefik.yaml
+  - test-issuer.yaml
