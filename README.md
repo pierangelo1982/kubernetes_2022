@@ -32,6 +32,6 @@
 
 [09 - traefik](09_traefik)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - traefic minimal setup](09_traefik/01_traefik_basic/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - traefik minimal setup](09_traefik/01_traefik_basic/)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - traefic with certificates](09_traefik/02_traefik_with_certificates/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - traefik with certificates](09_traefik/02_traefik_with_certificates/)
