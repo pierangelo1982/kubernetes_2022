@@ -1,5 +1,20 @@
 # kubernetes microk8s - ingress and domain
 
+### install certbot
+
+`helm repo add jetstack https://charts.jetstack.io`
+
+`helm repo update`
+
+(check the version and update, currently 1.7.3)
+
+`helm install cert-manager jetstack/cert-manager --namespace cert-manager --create-namespace --version v1.7.2 --set installCRDs=true`
+
+`kubectl config view --raw >~/.kube/config`
+
+`kubectl get Issuers,ClusterIssuers,Certificates,CertificateRequests,Orders,Challenges --all-namespaces`
+
+##
 N.B: add nginx-ingress addons in kubernetes ditalocean
 
 general-ingress.yaml manage the domain ingress: wordpress.p82.it phpmyadmin.p82.it
