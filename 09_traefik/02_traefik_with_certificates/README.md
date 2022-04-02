@@ -1,5 +1,7 @@
 # traefik
 
+[https://www.cloudsavvyit.com/14069/how-to-install-kubernetes-cert-manager-and-configure-lets-encrypt/](https://www.cloudsavvyit.com/14069/how-to-install-kubernetes-cert-manager-and-configure-lets-encrypt/)
+
 install with helm:
 
 `helm repo add traefik https://helm.traefik.io/traefik`

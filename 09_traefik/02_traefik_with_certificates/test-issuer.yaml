@@ -15,4 +15,4 @@ spec:
       - http01:
           ingress:
             #class: nginx
-            class: traefik
+            class: "traefik"
