@@ -1,0 +1,11 @@
+resources:
+  - database-namespace.yaml
+  - public-namespace.yaml
+  - mysql-secret.yaml
+  - mysql-storage.yaml
+  - mysql-deployment.yaml
+  - public-secret.yaml
+  - phpmyadmin-deployment.yaml
+  - phpmyadmin-ingress.yaml
+  - wordpress-storage.yaml
+  - wordpress-deployment.yaml
