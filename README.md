@@ -16,6 +16,8 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[05 - wordpress + mysql + phpmyadmin + nginx ingress & dns + certificates let's encrypt on microk8s](03_wordpress_mysql_phpmyadmin/05_microk8s_kubernetes_nginx_ingress_dns_letsencrypt_certificates/)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[06 - wordpress + mysql + phpmyadmin + nginx ingress & dns + certificates let's encrypt on digitalocean](03_wordpress_mysql_phpmyadmin/06_digitalocean_kubernetes_ingress_dns_and_certificates/)
+
 [04 - postgresql](04_postgresql/)
 
 [05 - postgresql + pgadmin](05_postgres_pgadmin/)

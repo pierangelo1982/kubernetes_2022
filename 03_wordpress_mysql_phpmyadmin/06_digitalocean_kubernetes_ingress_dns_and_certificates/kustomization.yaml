@@ -1,0 +1,9 @@
+resources:
+  - mysql-secret.yaml
+  - mysql-storage.yaml
+  - mysql-deployment.yaml
+  - phpmyadmin-deployment.yaml
+  - wordpress-storage.yaml
+  - wordpress-deployment.yaml
+  - general-issuer.yaml
+  - general-ingress.yaml
