@@ -42,4 +42,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - connect phpmyadmin to helm created mysql](10_helm_test/01_connect_phpmyadmin_to_helm_mysql/)
 
+[10 - namespaces](11_namespaces/)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - connect app in different namespaces](11_namespaces/01_connect_different_namespaces/)

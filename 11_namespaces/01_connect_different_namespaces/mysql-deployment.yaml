@@ -37,10 +37,21 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mysql
+  name: mysql-service
   namespace: database
 spec:
   ports:
-    - port: 3306
+  - port: 3306
   selector:
     app: mysql
+
+# apiVersion: v1
+# kind: Service
+# metadata:
+#   name: mysql-service
+#   namespace: database
+# spec:
+#   type: ClusterIP
+#   ports:
+#     - targetPort: 3306
+#       port: 3306
