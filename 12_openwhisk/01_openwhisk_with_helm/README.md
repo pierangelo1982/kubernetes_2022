@@ -7,6 +7,7 @@ create a file named: mycluster.yaml
 
 you can find some example here: [https://github.com/apache/openwhisk-deploy-kube/tree/master/deploy](https://github.com/apache/openwhisk-deploy-kube/tree/master/deploy)
 
+change localhost with ip your machine
 ```
 whisk:
   ingress:
@@ -69,3 +70,7 @@ Once the deployment is ready, you can verify it using:
 
   $ helm test owdev --cleanup
 ```
+
+uninstall
+
+`helm uninstall owdev -n openwhisk`

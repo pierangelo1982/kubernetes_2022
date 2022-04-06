@@ -1,7 +1,7 @@
 whisk:
   ingress:
     type: NodePort
-    apiHostName: localhost
+    apiHostName: 135.181.155.29
     apiHostPort: 31001
     useInternally: false
 
