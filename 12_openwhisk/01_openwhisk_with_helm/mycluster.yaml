@@ -1,0 +1,20 @@
+whisk:
+  ingress:
+    type: NodePort
+    apiHostName: localhost
+    apiHostPort: 31001
+    useInternally: false
+
+nginx:
+  httpsNodePort: 31001
+
+# disable affinity
+affinity:
+  enabled: false
+toleration:
+  enabled: false
+invoker:
+  options: "-Dwhisk.kubernetes.user-pod-node-affinity.enabled=false"
+  # must use KCF as kind uses containerd as its container runtime
+  containerFactory:
+    impl: "kubernetes"

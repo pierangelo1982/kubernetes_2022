@@ -47,3 +47,7 @@
 [11 - namespaces](11_namespaces/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - connect app in different namespaces](11_namespaces/01_connect_different_namespaces/)
+
+[12 - openwhisk on kunernetes](12_openwhisk/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - install openwhisk with helm](12_openwhisk/01_openwhisk_with_helm/)
