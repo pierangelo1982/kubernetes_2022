@@ -71,6 +71,15 @@ Once the deployment is ready, you can verify it using:
   $ helm test owdev --cleanup
 ```
 
+
+`wsk property set --auth 23bc46b1-71f6-4ed5-8c54-816aa4f8c502:123zO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP`
+
+`wsk -i action create hello hello.js`
+
+`wsk -i action invoke hello --result`
+
+`wsk -i action invoke hello --result --param name pierangelo`
+
 uninstall
 
 `helm uninstall owdev -n openwhisk`
