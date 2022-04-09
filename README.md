@@ -51,3 +51,7 @@
 [12 - openwhisk on kunernetes](12_openwhisk/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - install openwhisk with helm](12_openwhisk/01_openwhisk_with_helm/)
+
+[13 - nodejs](13_nodejs/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - nodejs with mysql using prisma ORM](./13_nodejs/01_nodejs_mysql_with_prisma/)

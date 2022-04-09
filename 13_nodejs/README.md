@@ -1,0 +1,1 @@
+# some experiment with node in kubernetes cluster
