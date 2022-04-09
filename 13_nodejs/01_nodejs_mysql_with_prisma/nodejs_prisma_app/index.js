@@ -4,6 +4,7 @@ const cors = require("cors");
 const app = express();
 
 const demoRoutes = require("./routes/demo");
+const citiesRoute = require("./routes/cities");
 
 const header = (req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
@@ -28,6 +29,7 @@ app.get("/", function(req, res) {
 });
 
 app.use("/api/v1/demo", demoRoutes);
+app.use("/api/v1/cities", citiesRoute);
 
 app.listen(process.env.NODE_PORT, () => {
   console.log(`listening on http://0.0.0.0:${process.env.NODE_PORT}`);
