@@ -1,8 +1,9 @@
-const http = require("http");
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-
 const app = express();
+
+const demoRoutes = require("./routes/demo");
 
 const header = (req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
@@ -26,6 +27,8 @@ app.get("/", function(req, res) {
   res.send("It's working!");
 });
 
-app.listen(3000, () => {
-  console.log("listening on port 3000");
+app.use("/api/v1/demo", demoRoutes);
+
+app.listen(process.env.NODE_PORT, () => {
+  console.log(`listening on http://0.0.0.0:${process.env.NODE_PORT}`);
 });
