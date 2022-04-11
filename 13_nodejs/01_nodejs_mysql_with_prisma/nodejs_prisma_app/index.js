@@ -1,4 +1,4 @@
-require("dotenv").config();
+//require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
@@ -31,6 +31,7 @@ app.get("/", function(req, res) {
 app.use("/api/v1/demo", demoRoutes);
 app.use("/api/v1/cities", citiesRoute);
 
-app.listen(process.env.NODE_PORT, () => {
-  console.log(`listening on http://0.0.0.0:${process.env.NODE_PORT}`);
+const port = process.env.NODE_PORT;
+app.listen(port, () => {
+  console.log(`listening on http://0.0.0.0:${port}`);
 });
