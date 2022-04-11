@@ -20,8 +20,7 @@ N.B: for test the app locally rename env-example file in .env and set your param
 
 migration:
 
-`npx prisma migrate dev --name init `
-
+`npx prisma migrate dev --name init`
 
 ## dockerize
 
@@ -38,3 +37,9 @@ docker run --name demo-node-prisma-mysql \
     -e DATABASE_URL="mysql://root:alnitek82@db:3306/demo" \
     -d pierangelo1982/demo-node-prisma-mysql
 ```
+
+push image on dockerhub
+
+`docker login`
+
+`docker push pierangelo1982/demo-node-prisma-mysql`
