@@ -1,0 +1,8 @@
+resources:
+  - mysql-secret.yaml
+  - mysql-storage.yaml
+  - mysql-deployment.yaml
+  - phpmyadmin-deployment.yaml
+  - phpmyadmin-ingress.yaml
+  - nodejs-secret.yaml
+  - nodejs-deployment.yaml

@@ -26,7 +26,10 @@ spec:
             - name: NODE_ADDRESS
               value: "0.0.0.0"
             - name: DATABASE_URL
-              value: "mysql://root:password1234@mysql-service/demo"
+              valueFrom:
+                secretKeyRef:
+                  name: nodejs-secret
+                  key: database-url
 ---
 apiVersion: v1
 kind: Service
