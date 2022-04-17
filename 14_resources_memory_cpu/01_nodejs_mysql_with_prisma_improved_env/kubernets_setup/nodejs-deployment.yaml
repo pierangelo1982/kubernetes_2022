@@ -1,0 +1,52 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejs-deployment
+  labels:
+    app: nodejs
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nodejs
+  template:
+    metadata:
+      labels:
+        app: nodejs
+    spec:
+      containers:
+        - name: nodejs-app
+          image: pierangelo1982/demo-node-prisma-mysql
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "500m"
+            limits:
+              memory: "512Mi"
+              cpu: "1000m"
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NODE_PORT
+              value: "3000"
+            - name: NODE_ADDRESS
+              value: "0.0.0.0"
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: nodejs-secret
+                  key: database-url
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nodejs-service
+spec:
+  type: NodePort
+  selector:
+    app: nodejs
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000

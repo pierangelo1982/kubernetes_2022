@@ -57,3 +57,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[01 - nodejs with mysql using prisma ORM](./13_nodejs/01_nodejs_mysql_with_prisma/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - nodejs with mysql using prisma ORM (with improved nodejs secret)](./13_nodejs/02_nodejs_mysql_with_prisma_improved_env/)
+
+[14 - resources memory cpu etc..](./14_resources_memory_cpu/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[02 - nodejs with mysql using prisma ORM (with improved nodejs secret)](./13_nodejs/02_nodejs_mysql_with_prisma_improved_env/)
